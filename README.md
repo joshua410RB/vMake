@@ -1,4 +1,4 @@
-#vMake
+# vMake
 ## Introduction
 
 vMake wraps the Verilog Compile - Simulate - Waveform View workflow into a single command. vMake runs the Icarus Verilog compiler, the simulation and gtkwave 
