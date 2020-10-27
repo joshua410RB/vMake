@@ -6,13 +6,13 @@ vMake wraps the Verilog Compile - Simulate - Waveform View workflow into a singl
 vMake uses a makefile called vMakefile to specify the top module and source files for the compiler and the waveform files for gtkwave
 
 
-##Installation
+## Installation
 Clone or download the repo and the setup.sh with sudo permissions (as it will copy the needed file to /usr/local/bin to allow program to be run from any directory)
 
-##Prerequisites
+## Prerequisites
 vMake requires Icarus Verilog and gtkwave to be installed 
 
-##Usage
+## Usage
 Note: the vMakefile for the project must be present in the directory
 
 Type "vMake" into the terminal 
@@ -21,12 +21,12 @@ Type "vMake" into the terminal
 Show help:
 ``` vMake --help```
 
-##vMakefile
+## vMakefile
 the vMakefile contains the details of the top module and source files for the verilog compiler and any waveform files to be viewed in gtkwave
 
 (a sample vMakefile is included in the repo)
 
-###Syntax
+### Syntax
 TOPMOD=[name of top module]
  - if called more than once, the latest call will take precedence
 
