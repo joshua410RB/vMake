@@ -1,0 +1,9 @@
+TOPMOD=and_not_testbench
+
+WAVEFORM=and_not_testbench_waves.vcd
+
+FILE=and_not_testbench.v
+FILE=and_gate.v
+FILE=not_gate.v
+
+#this is a comment
