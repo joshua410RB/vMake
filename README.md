@@ -21,7 +21,7 @@ Type "vMake" into the terminal
 ### Options
 Specify Makefile:
 ``` vMake -f {Makefile}```
-- the default Makkefile name is "vMakefile"
+- the default Makefile name is "vMakefile"
 
 Show help:
 ``` vMake --help```
