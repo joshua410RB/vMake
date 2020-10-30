@@ -20,11 +20,11 @@ Type "vMake" into the terminal
 
 ### Options
 Specify Makefile:
-``` vMake -f {Makefile}```
+``` vmake -f {Makefile}```
 - the default Makefile name is "vMakefile"
 
 Show help:
-``` vMake --help```
+``` vmake --help```
 
 ## vMakefile
 the vMakefile contains the details of the top module and source files for the verilog compiler and any waveform files to be viewed in gtkwave
