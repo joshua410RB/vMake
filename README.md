@@ -18,6 +18,11 @@ Note: the vMakefile for the project must be present in the directory
 Type "vMake" into the terminal 
 ```    vMake```
 
+### Options
+Specify Makefile:
+``` vMake -f {Makefile}```
+- the default Makkefile name is "vMakefile"
+
 Show help:
 ``` vMake --help```
 
