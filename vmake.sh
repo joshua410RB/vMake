@@ -53,4 +53,4 @@ if [ -n "$waveforms" ]; then
     gtkwave $waveforms
 fi
 
-rm topmod
+rm $topmod
