@@ -52,3 +52,5 @@ iverilog -Wall -g2012 -s $topmod -o $topmod $srcfiles
 if [ -n "$waveforms" ]; then
     gtkwave $waveforms
 fi
+
+rm topmod
