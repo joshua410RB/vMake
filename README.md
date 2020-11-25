@@ -18,8 +18,13 @@ Note: the vMakefile for the project must be present in the directory
 Type "vMake" into the terminal 
 ```    vMake```
 
+### Options
+Specify Makefile:
+``` vmake -f {Makefile}```
+- the default Makefile name is "vMakefile"
+
 Show help:
-``` vMake --help```
+``` vmake --help```
 
 ## vMakefile
 the vMakefile contains the details of the top module and source files for the verilog compiler and any waveform files to be viewed in gtkwave
